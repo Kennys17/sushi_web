@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheets" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Игра в кальмара</h1>
+    <h2>Данные</h2>
+    <form>
+        <p>
+            <label for="userName">Имя пользователя:</label>
+            <input id="userName" type="text" placeholder="Введите имя" required>
+        </p>
+        <p>
+            <label for="userEmail">Email:</label>
+            <input id="userEmail" type="email" placeholder="Введите почту">
+        </p>
+
+        <p>
+            <label for="date">Дата:</label>
+            <input id="date" type="date">
+        </p>
+
+        <h4>Выбор типа героя</h4>
+        
+        <p>
+            <label for="herotypes"> Выберите тип героя:</label>
+            <br><br>
+            <input type="radio" id="support" name="heroes">
+            <label for="support">Суппорт</label>
+            <br><br>
+            <input type="radio" id="carry" name="heroes">
+            <label for="carry">Керри</label>
+             <br><br>
+            <input type="radio" id="mid" name="heroes">
+            <label for="mid">Мидер</label>
+             <br><br>
+
+             <label for="select-city">Выберите город</label><br><br>
+
+             <select id="select-city" name="">
+                 <option value="Astana">Астана</option>
+                 <option value="Tokyo">Токио</option>
+                 <option value="Moscow">Москва</option>
+                 <option value="Prague">Прага</option>
+                 <option value="Chicago">Чикаго</option>
+             </select>
+            <br><br>
+             <label for="games-lvl">Опыт игры</label><br><br>
+
+             <select id="games-lvl" name="">
+                 <option value="0-1year">0-1 год</option>
+                 <option value="2-4 years">2-4 года</option>
+                 <option value="5+ years">5+ лет</option>
+             </select>
+            <br><br>
+            
+            
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
